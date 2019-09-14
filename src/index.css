@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Mono&display=swap");
+
+html {
+    background-color: #272b35;
+    font-family: Ubuntu Mono;
+}
+
+body {
+    margin: 0px;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #8c8c8b;
+    display: block;
+    margin: 0.5em 0em;
+    padding-left: 2.5rem;
+}
+
+.nav-link i {
+    display: none;
+    margin-right: 0.5em;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #fff;
+    outline: none;
+}
+
+.nav-link:hover i,
+.nav-link:focus i {
+    display: inline;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bookmarks {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80%;
+
+    flex-wrap: wrap;
+}
+
+.square {
+    padding: 0.4em;
+    font-size: 1rem;
+    margin: 1em 2em;
+    display: block;
+    min-width: 16em;
+}
+
+.square-header {
+    /* font-size: 1.1rem; */
+    font-weight: 600;
+    color: #fff;
+    margin: 0em 0em 0.35em 0em;
+    font-size: 1.5rem;
+}
+
+.square-header i {
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+.square-body {
+    vertical-align: top;
+    align-items: center;
+}

@@ -1,0 +1,27 @@
+{
+    "name": "welcome",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "webpack --mode=development",
+        "build": "webpack --mode=production",
+        "watch": "webpack --watch --mode=development",
+        "serve": "http-server -p 9001",
+        "pretty": "npx prettier src/**/*.ts --write",
+        "start": "npm run watch & npm run serve"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "css-loader": "^3.2.0",
+        "http-server": "^0.11.1",
+        "style-loader": "^1.0.0",
+        "ts-loader": "^6.1.0",
+        "typescript": "^3.6.3",
+        "webpack": "^4.40.2",
+        "webpack-cli": "^3.3.8"
+    }
+}
